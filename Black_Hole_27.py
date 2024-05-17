@@ -754,7 +754,7 @@ class compression:
                                                                 CL39 = format(En39, '04b')
                                                                 CL40 = format(En40, '04b')
                                                                 CL41 = format(En41, '04b')
-                                                                print(En41)
+                                                                #print(En41)
 
                                                                
                                                                 #print(N3)
