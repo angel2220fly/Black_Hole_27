@@ -363,6 +363,8 @@ class compression:
                                                     En39 = 2
                                                     En40 = 2
                                                     En41 = 2
+                                                    from qiskit import QuantumCircuit
+                                                    circuit = QuantumCircuit(1000)
 
 
                                                     while Find!=1:
@@ -372,7 +374,109 @@ class compression:
                                                                     bvar1=1
 
                                                                     
-
+                                                                    bi=0
+                                                                    
+                                                                    bvar=1
+                                                                    if bvar1==1:
+                                                                     
+                                                                            En = int(En)
+                                                                            QuantumCircuit(En)
+                                                                            En2 = int(En1)
+                                                                            QuantumCircuit(En1)
+                                                                            
+                                                                            En3 = int(En3)
+                                                                            QuantumCircuit(En3)
+                                                                            En4 = int(En4)
+                                                                            QuantumCircuit(En4)
+                                                                            
+                                                                            # Add En6 to En41
+                                                                            En6 = int(En6)
+                                                                            QuantumCircuit(En6)
+                                                                            En7 = int(En7)
+                                                                            QuantumCircuit(En7)
+                                                                            En8 = int(En8)
+                                                                            QuantumCircuit(En8)
+                                                                            # Continue adding En9 to En41 in the same manner...
+                                                                            En9 = int(En9)
+                                                                            QuantumCircuit(En9)
+                                                                            En10 = int(En10)
+                                                                            QuantumCircuit(En10)
+ 
+                                                                            
+                                                                            En11 = int(En11)
+                                                                            QuantumCircuit(En11)
+                                                                            En12 = int(En12)
+                                                                            QuantumCircuit(En12)
+                                                                            En13 = int(En13)
+                                                                            QuantumCircuit(En13)
+                                                                            En14 = int(En14)
+                                                                            QuantumCircuit(En14)
+                                                                            # Continue adding En15 to En41 in the same manner...
+                                                                            En15 = int(En15)
+                                                                            QuantumCircuit(En15)
+                                                                            En16 = int(En16)
+                                                                            QuantumCircuit(En16)
+                                                                            # Continue until En41
+                                                                            
+                                                                            En17 = int(En17)
+                                                                            QuantumCircuit(En17)
+                                                                            En18 = int(En18)
+                                                                            QuantumCircuit(En18)
+                                                                            En19 = int(En19)
+                                                                            QuantumCircuit(En19)
+                                                                            En20 = int(En20)
+                                                                            QuantumCircuit(En20)
+                                                                            # Continue adding En21 to En41 in the same manner...
+                                                                            En21 = int(En21)
+                                                                            QuantumCircuit(En21)
+                                                                            En22 = int(En22)
+                                                                            QuantumCircuit(En22)
+                                                                            
+                                                                            En23 = int(En23)
+                                                                            QuantumCircuit(En23)
+                                                                            En24 = int(En24)
+                                                                            QuantumCircuit(En24)
+                                                                            En25 = int(En25)
+                                                                            QuantumCircuit(En25)
+                                                                            En26 = int(En26)
+                                                                            QuantumCircuit(En26)
+                                                                            # Continue adding En27 to En41 in the same manner...
+                                                                            En27 = int(En27)
+                                                                            QuantumCircuit(En27)
+                                                                            En28 = int(En28)
+                                                                            QuantumCircuit(En28)
+                                                                            # Continue until En41
+                                                                            
+                                                                            En29 = int(En29)
+                                                                            QuantumCircuit(En29)
+                                                                            En30 = int(En30)
+                                                                            QuantumCircuit(En30)
+                                                                            En31 = int(En31)
+                                                                            QuantumCircuit(En31)
+                                                                            En32 = int(En32)
+                                                                            QuantumCircuit(En32)
+                                                                            # Continue adding En33 to En41 in the same manner...
+                                                                            En33 = int(En33)
+                                                                            QuantumCircuit(En33)
+                                                                            En34 = int(En34)
+                                                                            QuantumCircuit(En34)
+                                                                            
+                                                                            
+                                                                            En35 = int(En35)
+                                                                            QuantumCircuit(En35)
+                                                                            En36 = int(En36)
+                                                                            QuantumCircuit(En36)
+                                                                            En37 = int(En37)
+                                                                            QuantumCircuit(En37)
+                                                                            En38 = int(En38)
+                                                                            QuantumCircuit(En38)
+                                                                            # Continue adding En39 to En41 in the same manner...
+                                                                            En39 = int(En39)
+                                                                            QuantumCircuit(En39)
+                                                                            En40 = int(En40)
+                                                                            QuantumCircuit(En40)
+                                                                            # Finally, add En41
+                                                                            En41 = int(En41)    
 
 # Continue until En41
                                                                     M1, En, En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41 = Count_adds(M1, En, En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41)
@@ -1134,6 +1238,8 @@ class compression:
                                                        
                                                      INFO=Z4
                                                      bi=0
+                                                     
+                                                     
                                                      I2=INFO
                                                      I3=len(INFO)
                                                      I5=""
