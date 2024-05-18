@@ -148,7 +148,7 @@ class compression:
                             En38 = 1
                             En39 += 1
                         if En39 == 15:
-                            En49 = 1
+                            En39 = 1
                             En40 += 1
                         if En40 == 15:
                             En40 = 1
