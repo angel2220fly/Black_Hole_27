@@ -43,119 +43,115 @@ class compression:
                             En3 = 1
                             En4 += 1
                         if En4 == 15:
-                            En6 = 1
+                            En4 = 1
                             En6 += 1
                         
-                        if En3 == 15:
-                            En3 = 1
-                            En4 += 1
-                        if En4 == 15:
-                            En6 = 1
-                            En6 += 1
+                   
+                      
                         if En6 == 15:
-                            En7 = 1
+                            En6 = 1
                             En7 += 1
                         if En7 == 15:
-                            En8 = 1
+                            En7 = 1
                             En8 += 1
                         if En8 == 15:
-                            En9 = 1
+                            En8 = 1
                             En9 += 1
                         if En9 == 15:
-                            En10 = 1
+                            En9 = 1
                             En10 += 1
                         if En10 == 15:
-                            En11 = 1
+                            En10 = 1
                             En11 += 1
                         if En11 == 15:
-                            En12 = 1
+                            En11 = 1
                             En12 += 1
                         if En12 == 15:
-                            En13 = 1
+                            En12 = 1
                             En13 += 1
                         if En13 == 15:
-                            En14 = 1
+                            En13 = 1
                             En14 += 1
                         if En14 == 15:
-                            En15 = 1
+                            En14 = 1
                             En15 += 1
                         if En15 == 15:
-                            En16 = 1
+                            En15 = 1
                             En16 += 1
                         if En16 == 15:
-                            En17 = 1
+                            En16 = 1
                             En17 += 1
                         if En17 == 15:
-                            En18 = 1
+                            En17 = 1
                             En18 += 1
                         if En18 == 15:
-                            En19 = 1
+                            En18 = 1
                             En19 += 1
                         if En19 == 15:
-                            En20 = 1
+                            En19 = 1
                             En20 += 1
                         if En20 == 15:
-                            En21 = 1
+                            En20 = 1
                             En21 += 1
                         if En21 == 15:
-                            En22 = 1
+                            En21 = 1
                             En22 += 1
                         if En22 == 15:
-                            En23 = 1
+                            En22 = 1
                             En23 += 1
                         if En23 == 15:
-                            En24 = 1
+                            En23 = 1
                             En24 += 1
                         if En24 == 15:
-                            En25 = 1
+                            En24 = 1
                             En25 += 1
                         if En25 == 15:
-                            En26 = 1
+                            En25 = 1
                             En26 += 1
                         if En26 == 15:
-                            En27 = 1
+                            En26 = 1
                             En27 += 1
                         if En27 == 15:
-                            En28 = 1
+                            En27 = 1
                             En28 += 1
                         if En28 == 15:
-                            En29 = 1
+                            En28 = 1
                             En29 += 1
                         if En29 == 15:
-                            En30 = 1
+                            En29 = 1
                             En30 += 1
                         if En30 == 15:
-                            En31 = 1
+                            En30 = 1
                             En31 += 1
                         if En31 == 15:
-                            En32 = 1
+                            En31 = 1
                             En32 += 1
                         if En32 == 15:
-                            En33 = 1
+                            En32 = 1
                             En33 += 1
                         if En33 == 15:
-                            En34 = 1
+                            En33 = 1
                             En34 += 1
                         if En34 == 15:
-                            En35 = 1
+                            En34 = 1
                             En35 += 1
                         if En35 == 15:
-                            En36 = 1
+                            En35 = 1
                             En36 += 1
                         if En36 == 15:
-                            En37 = 1
+                            En36 = 1
                             En37 += 1
                         if En37 == 15:
-                            En38 = 1
+                            En37 = 1
                             En38 += 1
                         if En38 == 15:
-                            En39 = 1
+                            En38 = 1
                             En39 += 1
                         if En39 == 15:
-                            En40 = 1
+                            En49 = 1
                             En40 += 1
                         if En40 == 15:
-                            En41 = 1
+                            En40 = 1
                             En41 += 1
                   
                         
