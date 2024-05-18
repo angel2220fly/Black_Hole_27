@@ -257,38 +257,39 @@ class compression:
 # Continue until En41
                                                                     M1, En, En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41 = Count_adds(M1, En, En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41)
 
-                                                                    I2=I4
-                                                                    I3=len(INFO)
-                                                                    I5=""
-                                                                    #print(I3)
-                                                                    En5=-1
-                                                                    while bi<I3:
-                                                                                                                                                                         
-                                                                                                                                                                         
 
+
+                                                                    I2 = I4
+                                                                    I3 = len(INFO)
+                                                                    I5 = ""
+                                                                    # print(I3)
+                                                                    En5 = -1
+                                                                    bi = 0
+                                                                    
+                                                                    reverse_indices = {
+                                                                        37: En3, 36: En4, 35: En6, 34: En7, 33: En8, 32: En9, 31: En10,
+                                                                        30: En11, 29: En12, 28: En13, 27: En14, 26: En15, 25: En16, 24: En17,
+                                                                        23: En18, 22: En19, 21: En20, 20: En21, 19: En22, 18: En23, 17: En24,
+                                                                        16: En25, 15: En26, 14: En27, 13: En28, 12: En29, 11: En30, 10: En31,
+                                                                        9: En32, 8: En33, 7: En34, 6: En35, 5: En36, 4: En37, 3: En38, 2: En39,
+                                                                        1: En40, 0: En41
+                                                                    }
+                                                                    
+                                                                    while bi < I3:
                                                                         En5 += 1
                                                                         if En5 == 38:
                                                                             En5 = 0
-                                                                        
-                                                                        reverse_indices = {
-                                                                            37: En3, 36: En4, 35: En6, 34: En7, 33: En8, 32: En9, 31: En10,
-                                                                            30: En11, 29: En12, 28: En13, 27: En14, 26: En15, 25: En16, 24: En17,
-                                                                            23: En18, 22: En19, 21: En20, 20: En21, 19: En22, 18: En23, 17: En24,
-                                                                            16: En25, 15: En26, 14: En27, 13: En28, 12: En29, 11: En30, 10: En31,
-                                                                            9: En32, 8: En33, 7: En34, 6: En35, 5: En36, 4: En37, 3: En38, 2: En39,
-                                                                            1: En40, 0: En41
-                                                                        }
-                                                                        
+                                                                    
                                                                         if En5 in reverse_indices:
-                                                                            I = I2[bi:bi + reverse_indices[En5]]
-                                                                            I6 = I[::-1]
-                                                                            bi += reverse_indices[En5]
-                                                                        
-                                                                        I5 += I6
-                                                                        
-                                                                  
-                                                                        
-                                                                    INFO=I5
+                                                                            slice_length = reverse_indices[En5]
+                                                                            if bi + slice_length <= I3:
+                                                                                I = I2[bi:bi + slice_length]
+                                                                                I6 = I[::-1]
+                                                                                bi += slice_length
+                                                                                I5 += I6
+                                                                    
+                                                                    INFO = I5
+
                                                                     #print(INFO)
                                                                  
                     
@@ -719,44 +720,38 @@ class compression:
                                                        
                                                      #print(len(Z4))
                                                        
-                                                     INFO=Z4
-                                                     bi=0
-                                                     
-                                                     
-                                                     I2=INFO
-                                                     I3=len(INFO)
-                                                     I5=""
-                                                     En5=-1
-                                                     while bi<I3:
+                                                        INFO = Z4
+                                                        bi = 0
                                                         
-                                                                                                                                                                            
+                                                        I2 = INFO
+                                                        I3 = len(INFO)
+                                                        I5 = ""
+                                                        En5 = -1
+                                                        
+                                                        reverse_indices = {
+                                                            37: En3, 36: En4, 35: En6, 34: En7, 33: En8, 32: En9, 31: En10,
+                                                            30: En11, 29: En12, 28: En13, 27: En14, 26: En15, 25: En16, 24: En17,
+                                                            23: En18, 22: En19, 21: En20, 20: En21, 19: En22, 18: En23, 17: En24,
+                                                            16: En25, 15: En26, 14: En27, 13: En28, 12: En29, 11: En30, 10: En31,
+                                                            9: En32, 8: En33, 7: En34, 6: En35, 5: En36, 4: En37, 3: En38, 2: En39,
+                                                            1: En40, 0: En41
+                                                        }
+                                                        
+                                                        while bi < I3:
+                                                            En5 += 1
+                                                            if En5 == 38:
+                                                                En5 = 0
+                                                        
+                                                            if En5 in reverse_indices:
+                                                                slice_length = reverse_indices[En5]
+                                                                if bi + slice_length <= I3:
+                                                                    I = I2[bi:bi + slice_length]
+                                                                    I6 = I[::-1]
+                                                                    bi += slice_length
+                                                                    I5 += I6
+                                                        
+                                                      Z4 = I5
 
-                                                                        En5 += 1
-                                                                        if En5 == 38:
-                                                                            En5 = 0
-                                                                        
-                                                                        reverse_indices = {
-                                                                            37: En3, 36: En4, 35: En6, 34: En7, 33: En8, 32: En9, 31: En10,
-                                                                            30: En11, 29: En12, 28: En13, 27: En14, 26: En15, 25: En16, 24: En17,
-                                                                            23: En18, 22: En19, 21: En20, 20: En21, 19: En22, 18: En23, 17: En24,
-                                                                            16: En25, 15: En26, 14: En27, 13: En28, 12: En29, 11: En30, 10: En31,
-                                                                            9: En32, 8: En33, 7: En34, 6: En35, 5: En36, 4: En37, 3: En38, 2: En39,
-                                                                            1: En40, 0: En41
-                                                                        }
-                                                                        
-                                                                        if En5 in reverse_indices:
-                                                                            I = I2[bi:bi + reverse_indices[En5]]
-                                                                            I6 = I[::-1]
-                                                                            bi += reverse_indices[En5]
-                                                                        
-                                                                        I5 += I6                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                                                     Z4=I5
-                                                       
-                                                     
-                                                     #print(len(Z4))
-                                                        
-                                                        
                                                      N3=1
                                                      if N3==1:
                                                                File_information5_17=Z4
