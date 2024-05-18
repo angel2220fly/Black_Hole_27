@@ -381,7 +381,7 @@ class compression:
                                                                      
                                                                             En = int(En)
                                                                             QuantumCircuit(En)
-                                                                            En2 = int(En1)
+                                                                            En1 = int(En1)
                                                                             QuantumCircuit(En1)
                                                                             
                                                                             En3 = int(En3)
