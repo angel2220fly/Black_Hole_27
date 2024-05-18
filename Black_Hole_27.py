@@ -34,23 +34,125 @@ class compression:
                             M1 = 0
                             En = 255
                         
-
                         if En1 == 15:
                             En = 255
                             En1 = 0
                             M1 = 0
                             En3 += 1
+                        if En3 == 15:
+                            En3 = 1
+                            En4 += 1
+                        if En4 == 15:
+                            En4 = 1
+                            En6 += 1
                         
-                        counters = [En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41]
-                        
-                        for i in range(len(counters)):
-                            if counters[i] == 15:
-                                counters[i] = 1
-                                if i + 1 < len(counters):
-                                    counters[i + 1] += 1
-                        
-                        En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41 = counters
-
+                   
+                      
+                        if En6 == 15:
+                            En6 = 1
+                            En7 += 1
+                        if En7 == 15:
+                            En7 = 1
+                            En8 += 1
+                        if En8 == 15:
+                            En8 = 1
+                            En9 += 1
+                        if En9 == 15:
+                            En9 = 1
+                            En10 += 1
+                        if En10 == 15:
+                            En10 = 1
+                            En11 += 1
+                        if En11 == 15:
+                            En11 = 1
+                            En12 += 1
+                        if En12 == 15:
+                            En12 = 1
+                            En13 += 1
+                        if En13 == 15:
+                            En13 = 1
+                            En14 += 1
+                        if En14 == 15:
+                            En14 = 1
+                            En15 += 1
+                        if En15 == 15:
+                            En15 = 1
+                            En16 += 1
+                        if En16 == 15:
+                            En16 = 1
+                            En17 += 1
+                        if En17 == 15:
+                            En17 = 1
+                            En18 += 1
+                        if En18 == 15:
+                            En18 = 1
+                            En19 += 1
+                        if En19 == 15:
+                            En19 = 1
+                            En20 += 1
+                        if En20 == 15:
+                            En20 = 1
+                            En21 += 1
+                        if En21 == 15:
+                            En21 = 1
+                            En22 += 1
+                        if En22 == 15:
+                            En22 = 1
+                            En23 += 1
+                        if En23 == 15:
+                            En23 = 1
+                            En24 += 1
+                        if En24 == 15:
+                            En24 = 1
+                            En25 += 1
+                        if En25 == 15:
+                            En25 = 1
+                            En26 += 1
+                        if En26 == 15:
+                            En26 = 1
+                            En27 += 1
+                        if En27 == 15:
+                            En27 = 1
+                            En28 += 1
+                        if En28 == 15:
+                            En28 = 1
+                            En29 += 1
+                        if En29 == 15:
+                            En29 = 1
+                            En30 += 1
+                        if En30 == 15:
+                            En30 = 1
+                            En31 += 1
+                        if En31 == 15:
+                            En31 = 1
+                            En32 += 1
+                        if En32 == 15:
+                            En32 = 1
+                            En33 += 1
+                        if En33 == 15:
+                            En33 = 1
+                            En34 += 1
+                        if En34 == 15:
+                            En34 = 1
+                            En35 += 1
+                        if En35 == 15:
+                            En35 = 1
+                            En36 += 1
+                        if En36 == 15:
+                            En36 = 1
+                            En37 += 1
+                        if En37 == 15:
+                            En37 = 1
+                            En38 += 1
+                        if En38 == 15:
+                            En38 = 1
+                            En39 += 1
+                        if En39 == 15:
+                            En39 = 1
+                            En40 += 1
+                        if En40 == 15:
+                            En40 = 1
+                            En41 += 1
                   
                         
                         
@@ -210,8 +312,9 @@ class compression:
                                                 Ex=1
                                                 if Ex==1:
                                                 
-
+                                                
                                                     Extract1=0
+                                                    
                                                     Find=0
                                                     En=255
                                                     Ci=1
@@ -222,7 +325,44 @@ class compression:
                                                     En3=2
                                                     En4=2
                                                     I4=INFO# reverse
-                                                    En6=En7=En8=En9=En10=En11=En12=En13=En14=En15=En16=En17=En18=En19=En20=En21=En22=En23=En24=En25=En26=En27=En28=En29=En30=En31=En32=En33=En34=En35=En36=En37=En38=En39=En40=En41=2
+                                                    En5=0
+
+                                                    En6 = 2
+                                                    En7 = 2
+                                                    En8 = 2
+                                                    En9 = 2
+                                                    En10 = 2
+                                                    En11 = 2
+                                                    En12 = 2
+                                                    En13 = 2
+                                                    En14 = 2
+                                                    En15 = 2
+                                                    En16 = 2
+                                                    En17 = 2
+                                                    En18 = 2
+                                                    En19 = 2
+                                                    En20 = 2
+                                                    En21 = 2
+                                                    En22 = 2
+                                                    En23 = 2
+                                                    En24 = 2
+                                                    En25 = 2
+                                                    En26 = 2
+                                                    En27 = 2
+                                                    En28 = 2
+                                                    En29 = 2
+                                                    En30 = 2
+                                                    En31 = 2
+                                                    En32 = 2
+                                                    En33 = 2
+                                                    En34 = 2
+                                                    En35 = 2
+                                                    En36 = 2
+                                                    En37 = 2
+                                                    En38 = 2
+                                                    En39 = 2
+                                                    En40 = 2
+                                                    En41 = 2
                                                     from qiskit import QuantumCircuit
                                                     circuit = QuantumCircuit(1000)
 
@@ -239,57 +379,281 @@ class compression:
                                                                     bvar=1
                                                                     if bvar1==1:
                                                                      
-                                                                                                                                   
-                                                                        En = int(En)
-                                                                        QuantumCircuit(En)
-                                                                        En2 = int(En1)
-                                                                        QuantumCircuit(En1)
-                                                                        En3 = int(En3)
-                                                                        QuantumCircuit(En3)
-                                                                        En4 = int(En4)
-                                                                        QuantumCircuit(En4)
-                                                                        
-                                                                        for i in range(6, 42):
-                                                                            locals()[f'En{i}'] = int(locals()[f'En{i}'])
-                                                                            QuantumCircuit(locals()[f'En{i}'])
-
+                                                                            En = int(En)
+                                                                            QuantumCircuit(En)
+                                                                            En2 = int(En1)
+                                                                            QuantumCircuit(En1)
+                                                                            
+                                                                            En3 = int(En3)
+                                                                            QuantumCircuit(En3)
+                                                                            En4 = int(En4)
+                                                                            QuantumCircuit(En4)
+                                                                            
+                                                                            # Add En6 to En41
+                                                                            En6 = int(En6)
+                                                                            QuantumCircuit(En6)
+                                                                            En7 = int(En7)
+                                                                            QuantumCircuit(En7)
+                                                                            En8 = int(En8)
+                                                                            QuantumCircuit(En8)
+                                                                            # Continue adding En9 to En41 in the same manner...
+                                                                            En9 = int(En9)
+                                                                            QuantumCircuit(En9)
+                                                                            En10 = int(En10)
+                                                                            QuantumCircuit(En10)
+ 
+                                                                            
+                                                                            En11 = int(En11)
+                                                                            QuantumCircuit(En11)
+                                                                            En12 = int(En12)
+                                                                            QuantumCircuit(En12)
+                                                                            En13 = int(En13)
+                                                                            QuantumCircuit(En13)
+                                                                            En14 = int(En14)
+                                                                            QuantumCircuit(En14)
+                                                                            # Continue adding En15 to En41 in the same manner...
+                                                                            En15 = int(En15)
+                                                                            QuantumCircuit(En15)
+                                                                            En16 = int(En16)
+                                                                            QuantumCircuit(En16)
+                                                                            # Continue until En41
+                                                                            
+                                                                            En17 = int(En17)
+                                                                            QuantumCircuit(En17)
+                                                                            En18 = int(En18)
+                                                                            QuantumCircuit(En18)
+                                                                            En19 = int(En19)
+                                                                            QuantumCircuit(En19)
+                                                                            En20 = int(En20)
+                                                                            QuantumCircuit(En20)
+                                                                            # Continue adding En21 to En41 in the same manner...
+                                                                            En21 = int(En21)
+                                                                            QuantumCircuit(En21)
+                                                                            En22 = int(En22)
+                                                                            QuantumCircuit(En22)
+                                                                            
+                                                                            En23 = int(En23)
+                                                                            QuantumCircuit(En23)
+                                                                            En24 = int(En24)
+                                                                            QuantumCircuit(En24)
+                                                                            En25 = int(En25)
+                                                                            QuantumCircuit(En25)
+                                                                            En26 = int(En26)
+                                                                            QuantumCircuit(En26)
+                                                                            # Continue adding En27 to En41 in the same manner...
+                                                                            En27 = int(En27)
+                                                                            QuantumCircuit(En27)
+                                                                            En28 = int(En28)
+                                                                            QuantumCircuit(En28)
+                                                                            # Continue until En41
+                                                                            
+                                                                            En29 = int(En29)
+                                                                            QuantumCircuit(En29)
+                                                                            En30 = int(En30)
+                                                                            QuantumCircuit(En30)
+                                                                            En31 = int(En31)
+                                                                            QuantumCircuit(En31)
+                                                                            En32 = int(En32)
+                                                                            QuantumCircuit(En32)
+                                                                            # Continue adding En33 to En41 in the same manner...
+                                                                            En33 = int(En33)
+                                                                            QuantumCircuit(En33)
+                                                                            En34 = int(En34)
+                                                                            QuantumCircuit(En34)
+                                                                            
+                                                                            
+                                                                            En35 = int(En35)
+                                                                            QuantumCircuit(En35)
+                                                                            En36 = int(En36)
+                                                                            QuantumCircuit(En36)
+                                                                            En37 = int(En37)
+                                                                            QuantumCircuit(En37)
+                                                                            En38 = int(En38)
+                                                                            QuantumCircuit(En38)
+                                                                            # Continue adding En39 to En41 in the same manner...
+                                                                            En39 = int(En39)
+                                                                            QuantumCircuit(En39)
+                                                                            En40 = int(En40)
+                                                                            QuantumCircuit(En40)
+                                                                            # Finally, add En41
+                                                                            En41 = int(En41)    
 
 # Continue until En41
                                                                     M1, En, En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41 = Count_adds(M1, En, En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41)
 
+                                                                    I2=I4
+                                                                    I3=len(INFO)
+                                                                    I5=""
+                                                                    #print(I3)
+                                                                    En5=-1
+                                                                    while bi<I3:
+                                                                                                                                                                         
+                                                                                                                                                                         
+                                                                            En5+=1                                                                                                                                                                         
+                                                                            if En5 == 38:
+                                                                                En5=0
 
-
-                                                                    I2 = I4
-                                                                    I3 = len(INFO)
-                                                                    I5 = ""
-                                                                    # print(I3)
-                                                                    En5 = -1
-                                                                    bi = 0
-                                                                    
-                                                                    reverse_indices = {
-                                                                        37: En3, 36: En4, 35: En6, 34: En7, 33: En8, 32: En9, 31: En10,
-                                                                        30: En11, 29: En12, 28: En13, 27: En14, 26: En15, 25: En16, 24: En17,
-                                                                        23: En18, 22: En19, 21: En20, 20: En21, 19: En22, 18: En23, 17: En24,
-                                                                        16: En25, 15: En26, 14: En27, 13: En28, 12: En29, 11: En30, 10: En31,
-                                                                        9: En32, 8: En33, 7: En34, 6: En35, 5: En36, 4: En37, 3: En38, 2: En39,
-                                                                        1: En40, 0: En41
-                                                                    }
-                                                                    
-                                                                    while bi < I3:
-                                                                        En5 += 1
-                                                                        if En5 == 38:
-                                                                            En5 = 0
-                                                                    
-                                                                        if En5 in reverse_indices:
-                                                                            slice_length = reverse_indices[En5]
-                                                                            if bi + slice_length <= I3:
-                                                                                I = I2[bi:bi + slice_length]
+                                                                            if En5 == 37:
+                                                                                I = I2[bi:bi + En3]
                                                                                 I6 = I[::-1]
-                                                                                bi += slice_length
+                                                                                bi += En3
+                                                                            if En5 == 36:
+                                                                                I = I2[bi:bi + En4]
+                                                                                I6 = I[::-1]
+                                                                                bi += En4 
+                                                                            if En5 == 35:
+                                                                                I = I2[bi:bi + En6]
+                                                                                I6 = I[::-1]
+                                                                                bi += En6                                                
+                                                                            if En5 == 34:
+                                                                                I = I2[bi:bi + En7]
+                                                                                I6 = I[::-1]
+                                                                                bi += En7                                                       
+                                                                            if En5 == 33:
+                                                                                I = I2[bi:bi + En8]
+                                                                                I6 = I[::-1]
+                                                                                bi += En8
+                                                                            if En5 == 32:
+                                                                                I = I2[bi:bi + En9]
+                                                                                I6 = I[::-1]
+                                                                                bi += En9
+                                                                            if En5 == 31:
+                                                                                I = I2[bi:bi + En10]
+                                                                                I6 = I[::-1]
+                                                                                bi += En10                                                                   
+                                                                            if En5 == 30:
+                                                                                I = I2[bi:bi + En11]
+                                                                                I6 = I[::-1]
+                                                                                bi += En11
+                                                                            if En5 == 29:
+                                                                                I = I2[bi:bi + En12]
+                                                                                I6 = I[::-1]
+                                                                                bi += En12                                                                
+                                                                            if En5 == 28:
+                                                                                I = I2[bi:bi + En13]
+                                                                                I6 = I[::-1]
+                                                                                bi += En13                                                                    
+                                                                            if En5 == 27:
+                                                                                I = I2[bi:bi + En14]
+                                                                                I6 = I[::-1]
+                                                                                bi += En14 
+                                                                            if En5 == 26:
+                                                                                I = I2[bi:bi + En15]
+                                                                                I6 = I[::-1]
+                                                                                bi += En15
+                                                                            if En5 == 25:
+                                                                                I = I2[bi:bi + En16]
+                                                                                I6 = I[::-1]
+                                                                                bi += En16
+                                                                            if En5 == 24:
+                                                                                I = I2[bi:bi + En17]
+                                                                                I6 = I[::-1]
+                                                                                bi += En17
+                                                                            if En5 == 23:
+                                                                                I = I2[bi:bi + En18]
+                                                                                I6 = I[::-1]
+                                                                                bi += En18
+                                                                            if En5 == 22:
+                                                                                I = I2[bi:bi + En19]
+                                                                                I6 = I[::-1]
+                                                                                bi += En19
+                                                                            if En5 == 21:
+                                                                                I = I2[bi:bi + En20]
+                                                                                I6 = I[::-1]
+                                                                                bi += En20
+                                                                            if En5 == 20:
+                                                                                I = I2[bi:bi + En21]
+                                                                                I6 = I[::-1]
+                                                                                bi += En21
+                                                                            if En5 == 19:
+                                                                                I = I2[bi:bi + En22]
+                                                                                I6 = I[::-1]
+                                                                                bi += En22
+                                                                            if En5 == 18:
+                                                                                I = I2[bi:bi + En23]
+                                                                                I6 = I[::-1]
+                                                                                bi += En23
+                                                                            if En5 == 17:
+                                                                                I = I2[bi:bi + En24]
+                                                                                I6 = I[::-1]
+                                                                                bi += En24
+                                                                            if En5 == 16:
+                                                                                I = I2[bi:bi + En25]
+                                                                                I6 = I[::-1]
+                                                                                bi += En25
+                                                                            if En5 == 15:
+                                                                                I = I2[bi:bi + En26]
+                                                                                I6 = I[::-1]
+                                                                                bi += En26
+                                                                            if En5 == 14:
+                                                                                I = I2[bi:bi + En27]
+                                                                                I6 = I[::-1]
+                                                                                bi += En27
+                                                                            if En5 == 13:
+                                                                                I = I2[bi:bi + En28]
+                                                                                I6 = I[::-1]
+                                                                                bi += En28
+                                                                            if En5 == 12:
+                                                                                I = I2[bi:bi + En29]
+                                                                                I6 = I[::-1]
+                                                                                bi += En29
+                                                                            if En5 == 11:
+                                                                                I = I2[bi:bi + En30]
+                                                                                I6 = I[::-1]
+                                                                                bi += En30
+                                                                            if En5 == 10:
+                                                                                I = I2[bi:bi + En31]
+                                                                                I6 = I[::-1]
+                                                                                bi += En31
+                                                                            if En5 == 9:
+                                                                                I = I2[bi:bi + En32]
+                                                                                I6 = I[::-1]
+                                                                                bi += En32
+                                                                            if En5 == 8:
+                                                                                I = I2[bi:bi + En33]
+                                                                                I6 = I[::-1]
+                                                                                bi += En33
+                                                                            if En5 == 7:
+                                                                                I = I2[bi:bi + En34]
+                                                                                I6 = I[::-1]
+                                                                                bi += En34
+                                                                            if En5 == 6:
+                                                                                I = I2[bi:bi + En35]
+                                                                                I6 = I[::-1]
+                                                                                bi += En35
+                                                                            if En5 == 5:
+                                                                                I = I2[bi:bi + En36]
+                                                                                I6 = I[::-1]
+                                                                                bi += En36
+                                                                            if En5 == 4:
+                                                                                I = I2[bi:bi + En37]
+                                                                                I6 = I[::-1]
+                                                                                bi += En37
+                                                                            if En5 == 3:
+                                                                                I = I2[bi:bi + En38]
+                                                                                I6 = I[::-1]
+                                                                                bi += En38
+                                                                            if En5 == 2:
+                                                                                I = I2[bi:bi + En39]
+                                                                                I6 = I[::-1]
+                                                                                bi += En39
+                                                                            if En5 == 1:
+                                                                                I = I2[bi:bi + En40]
+                                                                                I6 = I[::-1]
+                                                                                bi += En40
+                                                                            if En5 == 0:
+                                                                                I = I2[bi:bi + En41]
+                                                                                I6 = I[::-1]
+                                                                                bi += En41
+                                                                            
+                                                                            if bi < I3:
                                                                                 I5 += I6
-                                                                    
-                                                                    INFO = I5
+                                                                            else:
+                                                                                  I5 += I6
 
+                                                                  
+                                                                        
+                                                                    INFO=I5
                                                                     #print(INFO)
                                                                  
                     
@@ -447,22 +811,63 @@ class compression:
                                                                 
 
                                                                 W="0"+str(len(C1))+"b"
+                                                              
+
                                                                 CL1 = format(longl, W)
                                                                 CL2 = format(En, '013b')
-                                                                Counts_V=1
-                                                                if Counts_V==1:
-            
-                                                                    counters = [En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41]
-                                                                    CL_list = [format(counter, '04b') for counter in counters]
-                                                                    
-                                                                    CL2, CL3, CL4, CL5, CL6, CL7, CL8, CL9, CL10, CL11, CL12, CL13, CL14, CL15, CL16, CL17, CL18, CL19, CL20, CL21, CL22, CL23, CL24, CL25, CL26, CL27, CL28, CL29, CL30, CL31, CL32, CL33, CL34, CL35, CL36, CL37, CL38, CL39, CL40, CL41 = [CL2] + CL_list
-                                                                    
-                                                                    
-                                                                                                                                    
-                                                                    
+                                                                CL3 = format(En1, '04b')
+                                                                CL4 = format(En3, '04b')
+                                                                CL5 = format(En4, '04b')
+                                                                CL6 = format(En6, '04b')
+                                                                CL7 = format(En7, '04b')
+                                                                CL8 = format(En8, '04b')
+                                                                CL9 = format(En9, '04b')
+                                                                CL10 = format(En10, '04b')
+                                                                CL11 = format(En11, '04b')
+                                                                CL12 = format(En12, '04b')
+                                                                CL13 = format(En13, '04b')
+                                                                CL14 = format(En14, '04b')
+                                                                CL15 = format(En15, '04b')
+                                                                CL16 = format(En16, '04b')
+                                                                CL17 = format(En17, '04b')
+                                                                CL18 = format(En18, '04b')
+                                                                CL19 = format(En19, '04b')
+                                                                CL20 = format(En20, '04b')
+                                                                CL21 = format(En21, '04b')
+                                                                CL22 = format(En22, '04b')
+                                                                CL23 = format(En23, '04b')
+                                                                CL24 = format(En24, '04b')
+                                                                CL25 = format(En25, '04b')
+                                                                CL26 = format(En26, '04b')
+                                                                CL27 = format(En27, '04b')
+                                                                CL28 = format(En28, '04b')
+                                                                CL29 = format(En29, '04b')
+                                                                CL30 = format(En30, '04b')
+                                                                CL31 = format(En31, '04b')
+                                                                CL32 = format(En32, '04b')
+                                                                CL33 = format(En33, '04b')
+                                                                CL34 = format(En34, '04b')
+                                                                CL35 = format(En35, '04b')
+                                                                CL36 = format(En36, '04b')
+                                                                CL37 = format(En37, '04b')
+                                                                CL38 = format(En38, '04b')
+                                                                CL39 = format(En39, '04b')
+                                                                CL40 = format(En40, '04b')
+                                                                CL41 = format(En41, '04b')
+                                                                #print(En41)
+
+                                                               
+                                                                #print(N3)
+                                                                                                                         
                                                                 if N3==1:
-                                                                           N3=1                                                                       
-                                                                if N3==1:
+
+                                                                     
+                                                                     
+                                                                       
+                                                                     
+                                                                       #print(Long_PM1)
+                                                                       N3=1                                                                       
+                                                                       if N3==1:
                                                                                File_information5_17="1"+CL41+CL40+CL39+CL38+CL37+CL36+CL35+CL34+CL33+CL32+CL31+CL30+CL29+CL28+CL27+CL26+CL25+CL24+CL23+CL22+CL21+CL20+CL19+CL18+CL17+CL16+CL15+CL14+CL13+CL12+CL11+CL10+CL9+CL8+CL7+CL6+CL5+CL4+CL3+CL2+CL1+Z4
                                                                                long_1=len(File_information5_17)
                                                                                add_bits=""
@@ -472,35 +877,34 @@ class compression:
                                                                                        while z<count_bits:
                                                                                                add_bits="0"+add_bits
                                                                                                z=z+1
-                                                                               File_information5_17=add_bits+File_information5_17                                                                            
-
-                                                                               z=0
+                                                                               File_information5_17=add_bits+File_information5_17
+                                                                             
                                                                                Extract1=1
-                                                                               if Extract1==1:                
-                                                                                                                    L=len(File_information5_17)
-                                                                                                                    #print(L)
-                                                                                                                    n = int(File_information5_17, 2)
-                                                                                                                    width_bits=len(File_information5_17)
-                                                                                                                    width_bits=(width_bits//8)*2
-                                                                                                                    width_bits=str(width_bits)
-                                                                                                                    width_bits="%0"+width_bits+"x"
-                                                                                                                    width_bits3=binascii.unhexlify(width_bits % n)
-                                                                                                                    width_bits2=len(width_bits3)
-                                                                                                                    File_information5_2=Clear
-                                                                                                                    name=name+".bin"
-                                                                                                                    jl=width_bits3
-                                                        
-                                                                                                           
-                                                                                                            
-                                                                                                                    with open(name_output, "wb") as f2:
-                                                                                                                        f2.write(jl)
-                                                                                                                    
-                                                                                                                    x2 = time()
-                                                                                                                    x3=x2-x
-                                                                                                                    xs=float(x3)
-                                                                                                                    xs=str(xs)
-                                                                                                                    return xs;
-                                                                                 
+                                                    if Extract1==1:                
+                                                            L=len(File_information5_17)
+                                                            #print(L)
+                                                            n = int(File_information5_17, 2)
+                                                            width_bits=len(File_information5_17)
+                                                            width_bits=(width_bits//8)*2
+                                                            width_bits=str(width_bits)
+                                                            width_bits="%0"+width_bits+"x"
+                                                            width_bits3=binascii.unhexlify(width_bits % n)
+                                                            width_bits2=len(width_bits3)
+                                                            File_information5_2=Clear
+                                                            name=name+".bin"
+                                                            jl=width_bits3
+
+                                                   
+                                                    
+                                                            with open(name_output, "wb") as f2:
+                                                                f2.write(jl)
+                                                            
+                                                            x2 = time()
+                                                            x3=x2-x
+                                                            xs=float(x3)
+                                                            xs=str(xs)
+                                                            return xs;
+                         
 
 
                                 if i==2:
@@ -527,10 +931,122 @@ class compression:
                                                             
                                     INFO=Extract
 
-
-                                    for i in range(41, 1, -1):
-                                        exec(f"En{i} = int(INFO[:4], 2)")
-                                        INFO = INFO[4:]
+                                    En41 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En40 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En39 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En38 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En37 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En36 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En35 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En34 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En33 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En32 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En31 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En30 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En29 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En28 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En27 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En26 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En25 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En24 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En23 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En22 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En21 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En20 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En19 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En18 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En17 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En16 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En15 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En14 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En13 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En12 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En11 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En10 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En9 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En8 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En7 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En6 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En4 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En3 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
+                                    
+                                    En2 = int(INFO[:4], 2)
+                                    INFO = INFO[4:]
                                     
                                     En = int(INFO[:13], 2)
                                     INFO = INFO[13:]
@@ -720,38 +1236,185 @@ class compression:
                                                        
                                                      #print(len(Z4))
                                                        
-                                                        INFO = Z4
-                                                        bi = 0
+                                                     INFO=Z4
+                                                     bi=0
+                                                     
+                                                     
+                                                     I2=INFO
+                                                     I3=len(INFO)
+                                                     I5=""
+                                                     En5=-1
+                                                     while bi<I3:
                                                         
-                                                        I2 = INFO
-                                                        I3 = len(INFO)
-                                                        I5 = ""
-                                                        En5 = -1
                                                         
-                                                        reverse_indices = {
-                                                            37: En3, 36: En4, 35: En6, 34: En7, 33: En8, 32: En9, 31: En10,
-                                                            30: En11, 29: En12, 28: En13, 27: En14, 26: En15, 25: En16, 24: En17,
-                                                            23: En18, 22: En19, 21: En20, 20: En21, 19: En22, 18: En23, 17: En24,
-                                                            16: En25, 15: En26, 14: En27, 13: En28, 12: En29, 11: En30, 10: En31,
-                                                            9: En32, 8: En33, 7: En34, 6: En35, 5: En36, 4: En37, 3: En38, 2: En39,
-                                                            1: En40, 0: En41
-                                                        }
-                                                        
-                                                        while bi < I3:
-                                                            En5 += 1
-                                                            if En5 == 38:
-                                                                En5 = 0
-                                                        
-                                                            if En5 in reverse_indices:
-                                                                slice_length = reverse_indices[En5]
-                                                                if bi + slice_length <= I3:
-                                                                    I = I2[bi:bi + slice_length]
-                                                                    I6 = I[::-1]
-                                                                    bi += slice_length
-                                                                    I5 += I6
-                                                        
-                                                      Z4 = I5
+                                                                            
+                                                                            En5+=1                                                                                                                                                                         
+                                                                            if En5 == 38:
+                                                                                En5=0
 
+                                                                            if En5 == 37:
+                                                                                I = I2[bi:bi + En3]
+                                                                                I6 = I[::-1]
+                                                                                bi += En3
+                                                                            if En5 == 36:
+                                                                                I = I2[bi:bi + En4]
+                                                                                I6 = I[::-1]
+                                                                                bi += En4 
+                                                                            if En5 == 35:
+                                                                                I = I2[bi:bi + En6]
+                                                                                I6 = I[::-1]
+                                                                                bi += En6                                                
+                                                                            if En5 == 34:
+                                                                                I = I2[bi:bi + En7]
+                                                                                I6 = I[::-1]
+                                                                                bi += En7                                                       
+                                                                            if En5 == 33:
+                                                                                I = I2[bi:bi + En8]
+                                                                                I6 = I[::-1]
+                                                                                bi += En8
+                                                                            if En5 == 32:
+                                                                                I = I2[bi:bi + En9]
+                                                                                I6 = I[::-1]
+                                                                                bi += En9
+                                                                            if En5 == 31:
+                                                                                I = I2[bi:bi + En10]
+                                                                                I6 = I[::-1]
+                                                                                bi += En10                                                                   
+                                                                            if En5 == 30:
+                                                                                I = I2[bi:bi + En11]
+                                                                                I6 = I[::-1]
+                                                                                bi += En11
+                                                                            if En5 == 29:
+                                                                                I = I2[bi:bi + En12]
+                                                                                I6 = I[::-1]
+                                                                                bi += En12                                                                
+                                                                            if En5 == 28:
+                                                                                I = I2[bi:bi + En13]
+                                                                                I6 = I[::-1]
+                                                                                bi += En13                                                                    
+                                                                            if En5 == 27:
+                                                                                I = I2[bi:bi + En14]
+                                                                                I6 = I[::-1]
+                                                                                bi += En14 
+                                                                            if En5 == 26:
+                                                                                I = I2[bi:bi + En15]
+                                                                                I6 = I[::-1]
+                                                                                bi += En15
+                                                                            if En5 == 25:
+                                                                                I = I2[bi:bi + En16]
+                                                                                I6 = I[::-1]
+                                                                                bi += En16
+                                                                            if En5 == 24:
+                                                                                I = I2[bi:bi + En17]
+                                                                                I6 = I[::-1]
+                                                                                bi += En17
+                                                                            if En5 == 23:
+                                                                                I = I2[bi:bi + En18]
+                                                                                I6 = I[::-1]
+                                                                                bi += En18
+                                                                            if En5 == 22:
+                                                                                I = I2[bi:bi + En19]
+                                                                                I6 = I[::-1]
+                                                                                bi += En19
+                                                                            if En5 == 21:
+                                                                                I = I2[bi:bi + En20]
+                                                                                I6 = I[::-1]
+                                                                                bi += En20
+                                                                            if En5 == 20:
+                                                                                I = I2[bi:bi + En21]
+                                                                                I6 = I[::-1]
+                                                                                bi += En21
+                                                                            if En5 == 19:
+                                                                                I = I2[bi:bi + En22]
+                                                                                I6 = I[::-1]
+                                                                                bi += En22
+                                                                            if En5 == 18:
+                                                                                I = I2[bi:bi + En23]
+                                                                                I6 = I[::-1]
+                                                                                bi += En23
+                                                                            if En5 == 17:
+                                                                                I = I2[bi:bi + En24]
+                                                                                I6 = I[::-1]
+                                                                                bi += En24
+                                                                            if En5 == 16:
+                                                                                I = I2[bi:bi + En25]
+                                                                                I6 = I[::-1]
+                                                                                bi += En25
+                                                                            if En5 == 15:
+                                                                                I = I2[bi:bi + En26]
+                                                                                I6 = I[::-1]
+                                                                                bi += En26
+                                                                            if En5 == 14:
+                                                                                I = I2[bi:bi + En27]
+                                                                                I6 = I[::-1]
+                                                                                bi += En27
+                                                                            if En5 == 13:
+                                                                                I = I2[bi:bi + En28]
+                                                                                I6 = I[::-1]
+                                                                                bi += En28
+                                                                            if En5 == 12:
+                                                                                I = I2[bi:bi + En29]
+                                                                                I6 = I[::-1]
+                                                                                bi += En29
+                                                                            if En5 == 11:
+                                                                                I = I2[bi:bi + En30]
+                                                                                I6 = I[::-1]
+                                                                                bi += En30
+                                                                            if En5 == 10:
+                                                                                I = I2[bi:bi + En31]
+                                                                                I6 = I[::-1]
+                                                                                bi += En31
+                                                                            if En5 == 9:
+                                                                                I = I2[bi:bi + En32]
+                                                                                I6 = I[::-1]
+                                                                                bi += En32
+                                                                            if En5 == 8:
+                                                                                I = I2[bi:bi + En33]
+                                                                                I6 = I[::-1]
+                                                                                bi += En33
+                                                                            if En5 == 7:
+                                                                                I = I2[bi:bi + En34]
+                                                                                I6 = I[::-1]
+                                                                                bi += En34
+                                                                            if En5 == 6:
+                                                                                I = I2[bi:bi + En35]
+                                                                                I6 = I[::-1]
+                                                                                bi += En35
+                                                                            if En5 == 5:
+                                                                                I = I2[bi:bi + En36]
+                                                                                I6 = I[::-1]
+                                                                                bi += En36
+                                                                            if En5 == 4:
+                                                                                I = I2[bi:bi + En37]
+                                                                                I6 = I[::-1]
+                                                                                bi += En37
+                                                                            if En5 == 3:
+                                                                                I = I2[bi:bi + En38]
+                                                                                I6 = I[::-1]
+                                                                                bi += En38
+                                                                            if En5 == 2:
+                                                                                I = I2[bi:bi + En39]
+                                                                                I6 = I[::-1]
+                                                                                bi += En39
+                                                                            if En5 == 1:
+                                                                                I = I2[bi:bi + En40]
+                                                                                I6 = I[::-1]
+                                                                                bi += En40
+                                                                            if En5 == 0:
+                                                                                I = I2[bi:bi + En41]
+                                                                                I6 = I[::-1]
+                                                                                bi += En41
+                                                                            
+                                                                            if bi < I3:
+                                                                                I5 += I6
+                                                                            else:
+                                                                                  I5 += I6                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                     Z4=I5
+                                                       
+                                                     
+                                                     #print(len(Z4))
+                                                        
+                                                        
                                                      N3=1
                                                      if N3==1:
                                                                File_information5_17=Z4
