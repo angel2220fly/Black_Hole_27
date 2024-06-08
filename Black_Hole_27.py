@@ -335,7 +335,7 @@ class compression:
                                                                                 C1=format(C4,'012b')                                                                                                                                                                                                                                                                        
                                                                             elif En<=8191:
                                                                                 C1=format(C4,'013b')                  
-                                                                            C2=format(longl,'06b') 
+                                                                            C2=format(longl,'05b') 
                                                                                                                                                         
     
                                                                                                                                                                                             
@@ -505,8 +505,8 @@ class compression:
                                   
                                     values = []
                                     for _ in range(41, 2, -1):
-                                        values.append(int(INFO[:4], 2))
-                                        INFO = INFO[4:]
+                                        values.append(int(INFO[:5], 2))
+                                        INFO = INFO[5:]
                                     
                                     En41, En40, En39, En38, En37, En36, En35, En34, En33, En32, En31, En30, En29, En28, En27, En26, En25, En24, En23, En22, En21, En20, En19, En18, En17, En16, En15, En14, En13, En12, En11, En10, En9, En8, En7, En6, En4, En3, En2 = values
 
