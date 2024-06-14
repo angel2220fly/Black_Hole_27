@@ -335,7 +335,7 @@ class compression:
                                                                                 C1=format(C4,'012b')                                                                                                                                                                                                                                                                        
                                                                             elif En<=8191:
                                                                                 C1=format(C4,'013b')                  
-                                                                            C2=format(longl,'05b') 
+                                                                            C2=format(longl,'06b') 
                                                                                                                                                         
     
                                                                                                                                                                                             
@@ -428,7 +428,7 @@ class compression:
                                                                 if Counts_V==1:
             
                                                                     counters = [En1, En3, En4, En6, En7, En8, En9, En10, En11, En12, En13, En14, En15, En16, En17, En18, En19, En20, En21, En22, En23, En24, En25, En26, En27, En28, En29, En30, En31, En32, En33, En34, En35, En36, En37, En38, En39, En40, En41]
-                                                                    CL_list = [format(counter, '04b') for counter in counters]
+                                                                    CL_list = [format(counter, '06b') for counter in counters]
                                                                     
                                                                     CL2, CL3, CL4, CL5, CL6, CL7, CL8, CL9, CL10, CL11, CL12, CL13, CL14, CL15, CL16, CL17, CL18, CL19, CL20, CL21, CL22, CL23, CL24, CL25, CL26, CL27, CL28, CL29, CL30, CL31, CL32, CL33, CL34, CL35, CL36, CL37, CL38, CL39, CL40, CL41 = [CL2] + CL_list
                                                                     
@@ -505,8 +505,8 @@ class compression:
                                   
                                     values = []
                                     for _ in range(41, 2, -1):
-                                        values.append(int(INFO[:5], 2))
-                                        INFO = INFO[5:]
+                                        values.append(int(INFO[:6], 2))
+                                        INFO = INFO[6:]
                                     
                                     En41, En40, En39, En38, En37, En36, En35, En34, En33, En32, En31, En30, En29, En28, En27, En26, En25, En24, En23, En22, En21, En20, En19, En18, En17, En16, En15, En14, En13, En12, En11, En10, En9, En8, En7, En6, En4, En3, En2 = values
 
