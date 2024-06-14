@@ -335,7 +335,7 @@ class compression:
                                                                                 C1=format(C4,'012b')                                                                                                                                                                                                                                                                        
                                                                             elif En<=8191:
                                                                                 C1=format(C4,'013b')                  
-                                                                            C2=format(longl,'06b') 
+                                                                            C2=format(longl,'04b') 
                                                                                                                                                         
     
                                                                                                                                                                                             
